@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yum.com</title>
+    <link rel="stylesheet" href="yum.css">
+</head>
+<body>
+
+    <header>
+
+        <div id="logo">
+            <a href="#"><img src="yum-logo.png" alt=""></a>
+        </div>
+
+        <nav class="navbar">
+            <button id="opennavbr" onclick="openmenu()">&#8801;</button>
+            <li class="dropdown">
+                <h4 onclick="toggleDropdown(event, 'companyDropdown')">Company</h4>
+                <ul id="companyDropdown" class="dropdown-content">
+                    <div class="company-list">
+                        <a href="#" class="dropdown-head">COMPANY</a><br><br>
+
+                        <li><a href="#">Good Growth Strategy</a></li>
+                        <li><a href="#">Leadership</a></li><br>
+
+                        <a href="#" class="dropdown-head">BRANDS</a><br><br>
+
+                        <li><a href="#">KFC</a></li>
+                        <li><a href="#">Taco Bell</a></li>
+                        <li><a href="#">Pizza Hut</a></li>
+                        <li><a href="#">Habit Burger & Grill</a></li><br>
+                        
+
+                        <a href="#" class="dropdown-head">FRANCHISING & REAL ESTATE</a>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <h4 onclick="toggleDropdown(event, 'careersDropdown')">Careers</h4>
+                <ul id="careersDropdown" class="dropdown-content">
+                    <div class="careers-list">
+                        <a href="#" class="dropdown-head">CAREERS</a><br><br>
+
+                        <li><a href="#">Our culture</a></li>
+                        <li><a href="#">How We Work</a></li>
+                        <li><a href="#">Our Functions</a></li>
+                        <li><a href="#">Professional Development</a></li>
+                        <li><a href="#">The Candidate Experience</a></li><br>
+
+                        <a href="#" class="dropdown-head">YUM! DIGITAL & TECH</a>
+                        <br><br>
+                        <a href="#" class="dropdown-head">SEARCH JOBS</a>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <h4 onclick="toggleDropdown(event, 'impactDropdown')">Impact</h4>
+                <ul id="impactDropdown" class="dropdown-content">
+                            
+                    <div class="approach-list">
+                        <a href="#" class="dropdown-head">IMPACT</a> <br><br>
+                        <a href="#" class="dropdown-head">APPROACH</a><br><br>
+
+                        <li><a href="#">Strategy & Governance</a></li>
+                        <li><a href="#">Stakeholder Engagement</a></li>
+                        <li><a href="#">Reporting & Materiality</a></li> <br>
+                        
+                        <a href="#" class="dropdown-head">PEOPLE</a> <br><br>
+
+                        <li><a href="#">Unrivaled Culture & Talent</a></li>
+                        <li><a href="#">Culture, Opportunity & Belonging</a></li>
+                        <li><a href="#">Community Impact</a></li>
+                        <li><a href="#">UOI Partners</a></li>
+                        <li><a href="#">Ethics & Human Rights</a></li>
+                    </div>
+
+                    <div class="food-list">
+                        <a href="#" class="dropdown-head">FOOD</a> <br><br>
+
+                        <li><a href="#">Food Safety</a></li>
+                        <li><a href="#">Balanced Choices</a></li>
+                        <li><a href="#">Raised Responsibly</a></li>
+                        <br>
+                    
+                        <a href="#" class="dropdown-head">PLANET</a><br><br>
+
+                        <li><a href="#">Planet Action</a></li>
+                        <li><a href="#">Biodiversity & Nature</a></li>
+                        <li><a href="#">Sustainable Packaging & Waste Reduction</a></li><br>
+                        
+                        <a href="#" class="dropdown-head">REPORTING & POLICIES</a>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <h4 onclick="toggleDropdown(event, 'investorsDropdown')">Investors</h4>
+                <ul id="investorsDropdown" class="dropdown-content">
+                    <div class="news-list">
+                        <a href="#" class="dropdown-head">INVESTORS</a><br><br>
+                        <a href="#" class="dropdown-head">NEWS & EVENTS</a>
+
+                        <li><a href="#">Events & Presentation</a></li>
+                        <li><a href="#">financial Releases</a></li><br>
+                        
+                        <a href="#" class="dropdown-head">FINANCIAL INFORMATION</a><br>
+
+                        <li><a href="#">SEC Filings</a></li>
+                        <li><a href="#">Annual Reports</a></li>
+                        <li><a href="#">Guidance</a></li>
+                        <li><a href="#">Financial Reports</a></li>
+                        <li><a href="#">Creditors</a></li>
+                        <li><a href="#">Safe Harbor Statement</a></li><br>
+
+                        <a href="#" class="dropdown-head">STOCK</a><br>
+
+                        <li><a href="#">Dividend History</a></li>
+                        <li><a href="#">Financial Calculators</a></li>
+                        <li><a href="#">Analyst Coverage</a></li>
+                        <li><a href="#">Direct Stock Purchases & Dividend Reinvestment</a></li>
+                        <li><a href="#">Spin Information</a></li>
+                    </div>
+
+                    <div class="governance-list">
+                        <a href="#" class="dropdown-head">GOVERNANCE</a><br><br>
+
+                        <li><a href="#">Governance Home</a></li>
+                        <li><a href="#">Board of Directors</a></li>
+                        <li><a href="#">Governance Documents</a></li>
+                        <li><a href="#">Code of Conduct</a></li>
+                        <li><a href="#">Committee Compositions & Charters</a></li>
+                        <li><a href="#">Insider Transactions</a></li><br>
+
+                        <a href="#" class="dropdown-head">RESOURCES</a><br><br>
+
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Email Notifications</a></li>
+                    </div>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <h4 onclick="toggleDropdown(event, 'newsDropdown')">News & Stories</h4>
+                <ul id="newsDropdown" class="dropdown-content">
+                    <div class="news-list">
+                        <a href="#" class="dropdown-head">NEWS & STORIES</a><br><br>
+
+                        <li><a href="#">Press Releases</a></li><br>
+
+                        <a href="#" class="dropdown-head">STORIES</a><br><br>
+
+                        <li><a href="#">Infographics</a></li>
+                        <li><a href="#">Snapshots</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Hear From Leaders</a></li><br>
+
+                        <a href="#" class="dropdown-head">MEDIA LIBRARY</a><br><br>
+
+                        <li><a href="#">Media Contacts</a></li>
+                    </div>
+                </ul>
+            </li>
+            <button id="closenavbr" onclick="closemenu()">&times;</button>
+
+        </nav>
+
+        <div class="yum-class">
+            <h3 class="yum">YUM - NYSE <br>141.62</h3>
+            <p>-1.07</p>  
+        </div>
+    </header>
+
+    <section id="Home">
+
+        <div class="slider-container">
+            <div class="overlay"></div>
+            <div class="slides">
+                <img src="customer.png" alt="Image 1" class="slide" data-index="0">
+                <img src="food1.png" alt="Image 2" class="slide" data-index="1">
+                <img src="pizza.png" alt="Image 3" class="slide" data-index="2">
+                <img src="burger.png" alt="Image 4" class="slide" data-index="3">
+            </div>
+
+            <div class="slider-text">
+                <p>
+                    We're building the world's <span>most loved</span>, <span>trusted</span> and <br>
+                    <span>connected</span> restaurant brands in partnership with the <span>best <br>franchise operators</span>
+                    in the business. <br>
+
+                    <button id="positions">OPEN POSITIONS</button>
+                </p>
+            </div>
+
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button> 
+            <button class="next" onclick="changeSlide(1)">&#10095;</button> 
+
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <div class="numbers">
+
+            <div class="num1">
+                <h4>APPROXIMATELY</h4><br>
+                <h1>1500</h1><br>
+                <h4>FRANCHISES</h4> 
+            </div>
+
+            <div class="num2">
+                <h4>OPERATING</h4><br>
+                <h1>61,000+</h1><br>
+                <h4>RESTAURANTS</h4> 
+            </div>
+
+            <div class="num3">
+                <h4>IN</h4><br>
+                <h1>155+</h1><br>
+                <h4>COUNTRIES & TERITORIES</h4> 
+            </div>
+
+        </div>
+        
+
+        <div class="franchise-image">
+            
+            <div class="image">
+                <img src="nature.png" alt="">
+                <div class="overlay2"></div>
+                <p>WE HAVE A <span>RECIPE FOR <br>GOOD GROWTH</span></p>
+            </div>
+            <div class="image">
+                <img src="people.png" alt="">
+                <div class="overlay2"></div>
+                <p>BE YOUR <span>BEST SELF AT YUM!</span></p>
+            </div>
+
+            <div class="image">
+                <img src="earnings.png" alt="">
+                <div class="overlay2"></div>
+                <p>CHECK OUT OUR LATEST <span>EARNINGS RELEASES</span></p>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+    
+    <script src="yum.js"></script>
+</body>
+</html>
