@@ -4,6 +4,7 @@ const closeNavbr = document.querySelector("#closenavbr");
 openNavbr.addEventListener("click", () => navbr.classList.add("active"));
 closeNavbr.addEventListener("click", () => navbr.classList.remove("active"));
 
+AOS.init();
 
 function toggleDropdown(event, menuId){
     event.preventDefault();
@@ -33,7 +34,7 @@ window.onclick = function(event){
 }
 
 //---------------for image slider-------------------------------------
-let slideIndex = 0; 
+/*let slideIndex = 0; 
 const slides = document.querySelector('.slides');
 const totalSlides = document.querySelectorAll('.slide').length;
 
@@ -90,4 +91,4 @@ function startAutoSlide() {
     return slideInterval;
 }
 
-startAutoSlide();
+startAutoSlide();*/
