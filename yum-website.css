@@ -782,9 +782,11 @@ input{
     }
     .brands{
         width: 40%;
-        height: 30vh;
+        height: 23vh;
     }
     .brands h2{
+        margin-top: -4px;
+        margin-bottom: -6px;
         font-size: 15px;
     }
     .brands a{
