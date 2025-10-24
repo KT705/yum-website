@@ -464,7 +464,7 @@ a:hover{
 
 .brands a{
     margin-left: 1pc;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 10px;
     background-color: #a01a1a;
     border: none;
@@ -782,7 +782,7 @@ input{
     }
     .brands{
         width: 40%;
-        height: 23vh;
+        height: 20vh;
     }
     .brands h2{
         margin-top: -4px;
