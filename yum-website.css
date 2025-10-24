@@ -502,7 +502,7 @@ footer{
 
 input{
     padding: 10px 50px;
-    background-color: #ffffff4f;
+    background-color: #0000004f;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -535,18 +535,19 @@ input{
         text-align: center;
         top: 0;
         right: -100%;
-        width: 170px;
+        width: 200px;
         height: 100vh;
-        background: #0f0f0f;
+        background: #3d3d3d;
         padding: 50px 40px 50px 0px;
         transition: 0.5s;
+        border-radius: 1px;
     }
     .navbar.active{
         right: 0;
     }
     .navbar li{
-        margin-top: 40px;
-        padding: 10px;
+        margin-top: 20px;
+        padding: 10px 0px 10px 30px;
     }
     #opennavbr{
         position: static;
@@ -561,8 +562,44 @@ input{
         position: absolute;
         top: 20px;
         color: #f5f5f5;
-        right: 140px;
+        right: 110px;
         cursor: pointer;
+    }
+    .dropdown-content{
+        position: static; 
+        width: 150px; 
+        margin-top: 0;
+        box-shadow: none;
+        padding-left: 5px;
+        margin-left: -3pc;
+        text-align: left;
+    }
+    #newsDropdown {
+        width: 100%;
+    }
+    #impactDropdown,
+    #investorsDropdown{
+        width: 230px;
+    }
+    .dropdown-head{
+        margin-left: 0;
+    }
+    
+    .dropdown-content li{
+        margin-left: 0;
+        margin-top: -1pc;
+    }
+    
+    .dropdown-content a {
+        color: #ddd; 
+        font-size: 13px;
+    }
+    #impactDropdown > div,
+    #investorsDropdown > div{
+        display: block;
+        width: 100%;
+        padding: 10px 0px 10px -70px;
+        margin-bottom: 5px;
     }
     .yum-class{
         display: none;
@@ -582,7 +619,7 @@ input{
     }
     .sub-text{
         padding: 0px 10px;
-        margin-top: 5pc;
+        margin-top: 2pc;
         font-size: 1.2pc;
     }
     #btn{
@@ -624,39 +661,57 @@ input{
     }
     .dropdown-content{
         position: static; 
-        width: 100%; 
+        width: 150px; 
         margin-top: 0;
-        background: none; 
         box-shadow: none;
-        padding-left: 10px;
+        padding-left: 5px;
+        margin-left: -1.6pc;
         text-align: left;
     }
-    #impactDropdown,
-    #investorsDropdown,
     #newsDropdown {
         width: 100%;
+    }
+    #impactDropdown,
+    #investorsDropdown{
+        width: 223px;
+    }
+    .dropdown-head{
+        margin-left: 0;
     }
     
     .dropdown-content li {
         margin-left: 0;
-        padding: 5px 0;
+        margin-top: -1pc;
     }
     
     .dropdown-content a {
         color: #ddd; 
-        font-size: 0.9em;
+        font-size: 11px;
+    }
+    #impactDropdown > div,
+    #investorsDropdown > div{
+        display: block;
+        width: 100%;
+        padding: 10px 0px 10px -50px;
+        margin-bottom: 5px;
     }
     .franchise-image{
         max-width: 100%;
     }
+    .main-text{
+        font-size: 1.7pc;
+    }
     .sub-text{
         padding: 0px 10px;
-        margin-top: 4pc;
-        font-size: 1pc;
+        margin-top: 1pc;
+        font-size: 12px;
+    }
+    .numbers{
+        font-size: 15px;
     }
     #btn{
-        margin-top: 5pc;
-        font-size: 1.1pc;
+        margin-top: 2pc;
+        font-size: 1pc;
     }
     .text{
         font-size: 40px;
@@ -698,15 +753,24 @@ input{
     }
     .main-text{
         margin-top: 2pc;
-        font-size: 2pc;
+        font-size: 1.5pc;
     }
     .sub-text{
         margin-top: -1pc;
+        font-size: 10px;
+    }
+    .why{
+        font-size: 3pc;
+    }
+    .numbers{
         font-size: 12px;
     }
+    .partnersHead, .footHead{
+        font-size: 3pc;
+    }
     #btn{
-        margin-top: 3pc;
-        font-size: 1pc;
+        margin-top: 2pc;
+        font-size: 75%;
     }
     .text{
         text-align: center;
@@ -728,7 +792,7 @@ input{
     }
     #kfc{
         width: 100%;
-        max-width: 380px;
+        max-width: 350px;
         height: 75%;
         object-fit: cover;
     }
