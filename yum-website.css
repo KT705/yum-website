@@ -37,7 +37,7 @@ header{
 #logo{
     margin-top: 5px;
     backdrop-filter: blur(17px);
-    background-color: #ffffff91;
+    background-color: #ffffff;
     border: none;
     border-radius: 30px;
 }
@@ -157,7 +157,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: bgChange 40s linear infinite;
+    animation: bgChange 25s linear infinite;
 }
 
 @keyframes bgChange{
@@ -547,8 +547,8 @@ input{
         right: 0;
     }
     .navbar li{
-        margin-top: 20px;
-        padding: 10px 0px 10px 30px;
+        margin-top: 40px;
+        padding: 40px 0px 10px 30px;
     }
     #opennavbr{
         position: static;
@@ -574,6 +574,7 @@ input{
         padding-left: 5px;
         margin-left: -3pc;
         text-align: left;
+        display: none;
     }
     #newsDropdown {
         width: 100%;
@@ -662,6 +663,7 @@ input{
     }
     .dropdown-content{
         position: static; 
+        display: none;
         width: 150px; 
         margin-top: 0;
         box-shadow: none;
@@ -691,7 +693,7 @@ input{
     }
     #impactDropdown > div,
     #investorsDropdown > div{
-        display: block;
+        display: none;
         width: 100%;
         padding: 10px 0px 10px -50px;
         margin-bottom: 5px;
