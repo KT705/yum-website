@@ -529,6 +529,7 @@ input{
     }
     #logo{
         margin-top: 3px;
+        background-color: #fff;
     }
     .navbar{
         position: fixed;
@@ -658,7 +659,7 @@ input{
         margin-left: 0;
     }
     #logo{
-        background-color: transparent;
+        background-color: #fff;
         backdrop-filter: none;
     }
     .dropdown-content{
@@ -748,7 +749,7 @@ input{
         width: 120px;
     }
     #logo{
-        background-color: transparent;
+        background-color: #fff;
         backdrop-filter: none;
     }
     #opennavbr{
